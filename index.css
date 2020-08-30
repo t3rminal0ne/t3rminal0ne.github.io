@@ -267,19 +267,9 @@ CONTENT HOLDER NAV BUTTONS
     background-color:white;
 }
 
-#info-navbutton-image-see-events {
-
-}
 #info-navbutton-image-see-media {
     background-image: url('./photos/info-navbutton-image-see-media.JPG');
     background-size: 300px 260px;
-
-}
-#info-navbutton-image-learn-more {
-    
-}
-#info-navbutton-image-learn-more-2 {
-    
 }
 
 redirectbutton {
