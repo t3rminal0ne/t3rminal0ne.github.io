@@ -244,32 +244,57 @@ CONTENT HOLDER NAV BUTTONS
     display:inline-block;
 
     position:relative;
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:15px;
+    margin-right:15px;
 
     margin-top:30px;
     margin-bottom:30px;
 
-    height:400px;
-    top:10%;
+    height:200px;
 
-    width:300px;
+    width:290px;
 
-    background-color:rgba(0,0,0,.1);
+    background-color:white;
     box-shadow: 0px 0px 5px rgba(0,0,0,.8);
 }
 
 .info-navbutton-image {
     position:relative;
 
-    height:50%;
+    height:100%;
     width:100%;
     background-color:white;
 }
 
+.info-navbutton-image p {
+    position:absolute;
+    font-family:Quicksand;
+    font-size:50px;
+    color:white;
+
+    text-align:center;
+}
+
+#info-navbutton-image-see-events {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./photos/info-navbutton-image-see-events.jpg');
+    background-size: 300px 200px;
+    
+}
+
 #info-navbutton-image-see-media {
-    background-image: url('./photos/info-navbutton-image-see-media.JPG');
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./photos/info-navbutton-image-see-media.JPG');
     background-size: 300px 260px;
+}
+
+#info-navbutton-image-learn-more {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./photos/info-navbutton-image-learn-more.JPG');
+    background-size: 300px 200px;
+}
+
+#info-navbutton-image-learn-more-2 {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./photos/info-navbutton-image-learn-more-2.JPG');
+    background-size: 300px 260px;
+    background-position:left bottom;
 }
 
 redirectbutton {
@@ -284,7 +309,9 @@ redirectbutton {
     cursor:pointer;
 
     border: 2px solid blue;
+    color:white;
     border-radius:7px;
+    background-color:rgba(0,0,255,.3);
 
     transition: background-color .3s, color .3s;
 }
