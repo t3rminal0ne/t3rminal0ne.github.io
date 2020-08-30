@@ -10,5 +10,4 @@ seeEventsButton.addEventListener('click', ()=>{
 
 const seeMediaButton = document.getElementById('see-media-navbutton')
 seeMediaButton.addEventListener('click', ()=>{
-    window.location = "./pages/events.html"
 })

@@ -9,6 +9,4 @@ seeEventsButton.addEventListener('click', function () {
   window.location = "./pages/events.html";
 });
 var seeMediaButton = document.getElementById('see-media-navbutton');
-seeMediaButton.addEventListener('click', function () {
-  window.location = "./pages/events.html";
-});
+seeMediaButton.addEventListener('click', function () {});
