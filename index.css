@@ -282,17 +282,17 @@ CONTENT HOLDER NAV BUTTONS
 }
 
 #info-navbutton-image-see-media {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./photos/info-navbutton-image-see-media.JPG');
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./photos/info-navbutton-image-see-media.jpg');
     background-size: 300px 260px;
 }
 
 #info-navbutton-image-learn-more {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./photos/info-navbutton-image-learn-more.JPG');
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./photos/info-navbutton-image-learn-more.jpg');
     background-size: 300px 200px;
 }
 
 #info-navbutton-image-learn-more-2 {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./photos/info-navbutton-image-learn-more-2.JPG');
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./photos/info-navbutton-image-learn-more-2.jpg');
     background-size: 300px 260px;
     background-position:left bottom;
 }
