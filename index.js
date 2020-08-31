@@ -5,9 +5,10 @@ logoImage.addEventListener('click', ()=>{
 
 const seeEventsButton = document.getElementById('see-events-navbutton')
 seeEventsButton.addEventListener('click', ()=>{
-    window.location = "./pages/events.html"
+    window.location = "./events/events.html"
 })
 
 const seeMediaButton = document.getElementById('see-media-navbutton')
 seeMediaButton.addEventListener('click', ()=>{
+    window.location = "./media/media.html"
 })
