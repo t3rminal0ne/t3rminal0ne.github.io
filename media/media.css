@@ -151,3 +151,102 @@ CONTENT HOLDER MAIN
 
     border-bottom:3px solid white;
 }
+
+/*
+NAV DIV STUFF
+*/
+
+#nav-div {
+    position:relative;
+
+    top:-30px;
+    
+    width:90%;
+    left:5%;
+
+    background-color:rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+
+    text-align:center;
+    display:inline-block;
+}
+
+.nav-div-button {
+    position:relative;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:20px;
+    margin-right:20px;
+
+    width:350px;
+    height:200px;
+    
+    display:inline-block;
+
+    text-align:center;
+    
+    background-color:red;
+
+    cursor:pointer;
+}
+
+.nav-div-button h1 {
+    position:absolute;
+    width:90%;
+    left:5%;
+    top:20%;
+
+    color:white;
+    text-shadow:2px 2px black;
+}
+
+#nav-div-button-rpc {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../photos/rpcpa/IMG_4555.JPG');
+    background-position: center center;
+
+    background-size:350px 200px;
+}
+
+#nav-div-button-dp {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../photos/dp/IMG_0651.JPG');
+    background-position: center center;
+
+    background-size:350px 220px;
+}
+
+#nav-div-button-rpcpa {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../photos/rpcpa/IMG_4562.JPG');
+    background-position: center center;
+
+    background-size:350px 250px;
+}
+
+/*
+CONTENT HOLDER PHOTOS RPC
+*/
+
+.content-holder-photos {
+    position:relative;
+
+    margin-bottom:20px;
+    
+    width:90%;
+    left:5%;
+    
+    display:inline-block;
+    text-align:center;
+
+    background-color:rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+}
+
+.content-holder-photos img {
+    max-width:500px;
+    max-height:300px;
+}
+
+#content-holder-photos-rpc h1 {
+    text-decoration: underline blue;
+    font-weight:900;
+}
+
