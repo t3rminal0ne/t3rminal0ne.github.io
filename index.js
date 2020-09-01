@@ -12,3 +12,8 @@ const seeMediaButton = document.getElementById('see-media-navbutton')
 seeMediaButton.addEventListener('click', ()=>{
     window.location = "./media/media.html"
 })
+
+const seeContactsButton = document.getElementById('learn-more-2-navbutton')
+seeContactsButton.addEventListener('click', ()=>{
+    window.location = "./contacts/contacts.html"
+})

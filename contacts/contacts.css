@@ -1,0 +1,161 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(228, 228, 228);
+    
+    font-family:'Quicksand', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    color:white;
+    text-decoration:none;
+    opacity:1;
+}
+
+/*
+BANNER
+*/
+
+#banner{
+    width:100%;
+    height:120px;
+
+    position:absolute;
+    background-color:rgba(0, 0, 0, 0.4);
+}
+
+navbutton {
+    margin-top:100px;
+    
+    height:300px;
+
+    font-size:20px;
+    font-family:"Quicksand";
+
+    border-bottom: 0px solid white;
+
+    transition:border-bottom .15s;
+    opacity:1;
+}
+
+navbutton:hover {
+    border-bottom: 3px solid rgb(255,255,255);
+}
+
+#logo {
+    position:absolute;
+    top:30px;
+    left:30px;
+
+    width:80px;
+    height:80px;
+
+    cursor:pointer;
+}
+
+/*
+NAVIGATION BUTTONS
+*/
+
+#about-us {
+    position:relative;
+    left:76.1%;
+    top:58px;
+}
+
+#contact-us {
+    position:relative;
+    left:91%;
+    top:58px;
+}
+
+#photos-videos {
+    position:relative;
+    left:56%;
+    top:58px;
+}
+
+#upcoming-events{
+    position:relative;
+    left:31%;
+    top:58px;
+}
+
+/*
+BANNER-EXTEND
+*/
+
+
+#banner-extend {
+
+    margin-top:-90px;
+
+    height:500px;
+    width:100%;
+    
+    background-image:url('../photos/bannerextend2.jpg');
+    background-position:center bottom;
+    background-repeat:fixed;
+
+    box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+}
+
+
+#banner-extend h1 {
+    color:white;
+    font-family:"Quicksand";
+    font-size:80px;
+    text-shadow:3px 3px black;
+    
+    position:relative;
+    text-align:center;
+    top:230px;
+}
+
+#banner-extend p {
+    color:white;
+    font-family:"Quicksand";
+    font-size:20px;
+    text-shadow:2px 2px black;
+    
+    position:relative;
+    text-align:center;
+    top:160px;
+}
+
+/*
+CONTENT HOLDER MAIN
+*/
+
+#content-holder-main {
+    top:-20px;
+    z-index: 10;
+
+    height:600px;
+
+    background-image:url('../photos/backgroundimage3.jpg');
+    background-repeat:center;
+    background-repeat:fixed;
+
+    text-align:center;
+}
+
+.contact-block {
+    display:inline-block;
+    position:relative;
+
+    margin:20px;
+
+    width:300px;
+    height:300px;
+    background-color:white;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+}
+
+.contact-block h1, h2, h3, h4, h5, h6, p {
+    position:absolute;
+    top:120px;
+    width:100%;
+    
+}
