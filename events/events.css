@@ -23,6 +23,7 @@ BANNER
 
     position:absolute;
     background-color:rgba(0, 0, 0, 0.4);
+    text-align:right;
 }
 
 navbutton {
@@ -60,26 +61,30 @@ NAVIGATION BUTTONS
 
 #about-us {
     position:relative;
-    left:76.1%;
     top:58px;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 #contact-us {
     position:relative;
-    left:91%;
     top:58px;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 #photos-videos {
     position:relative;
-    left:56%;
     top:58px;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 #upcoming-events{
     position:relative;
-    left:31%;
     top:58px;
+    margin-left:10px;
+    margin-right:20px;
 }
 
 /*
@@ -261,7 +266,7 @@ EVENT HOLDER STUFF
     color:black;
 
     position:relative;
-    width:30%;
+    width:100%;
     left:20%;
 
     top:100px;
