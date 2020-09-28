@@ -133,9 +133,8 @@ BANNER-EXTEND
 CONTENT HOLDER MAIN
 */
 
-#content-holder-main {
-    top:-20px;
-
+#backdrop {
+    position:relative;
     height:600px;
 
     background-image:url('./photos/backgroundimage3.jpg');
@@ -143,79 +142,52 @@ CONTENT HOLDER MAIN
     background-repeat:fixed;
 }
 
-#content-holder-h1-div {
-    position:relative;
-    width:90%;
-    left:05%;
-    top:10px;
-    
-
-    font-weight:100;
-    color:black;
-    text-align:center;
-
-    border-bottom:3px solid white;
-}
-
-#chm-left {
+#content-holder-main {
     position:absolute;
-    
-    height:100%;
-    width:50%;
 
-    text-align:center;
-
-    
-}
-
-#chm-left-container {
-    position:relative;
-
-    background-color:rgba(0,0,0,.2);
-    box-shadow: 0px 0px 10px rgba(0,0,0,.8);
-    border-radius:-10px;
-
-    width:77%;
+    top:-30px;
+    width:95%;
     left:2.5%;
-    height:550px;
-    top:1%;
-
-    z-index:10;
-}
-
-#chm-right {
-    position:absolute;
-
     height:100%;
-    width:50%;
-    left:50%;
+
+    background-color:white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+
+    text-align:center;
+
+    overflow:scroll;
 }
 
-#content-holder-main p {
-    position:relative;
-    top:20px;
+.content-holder-main-block {
+    display:inline-block;
+    height:270px;
+    width:49.5%;;
+    min-width:350px;
+
+    margin-top:10px;
+    margin-bottom:10px;
+
+    text-align:center;
+    vertical-align:top;
 }
 
-#classpic1 {
-    position:absolute;
-
-    width:auto;
-    height:635px;
-    left:-128px;
+.content-holder-main-block h1 {
+}
+.content-holder-main-block p {
 
 }
+
 
 /*
 CONTENT HOLDER NAVIGATION
 */
 
 #content-holder-nav {
-
     position:relative;
     z-index: 10;
+    top:-30px;
 
     background-color:rgb(255,255,255);
-    box-shadow: 0px 0px 5px rgba(0,0,0,.8);
 }
 
 #content-holder-nav h1 {
@@ -313,7 +285,7 @@ redirectbutton {
     border: 2px solid blue;
     color:white;
     border-radius:7px;
-    background-color:rgba(0,0,255,.3);
+    background-color:rgba(0,0,0,.3);
 
     transition: background-color .3s, color .3s;
 }
