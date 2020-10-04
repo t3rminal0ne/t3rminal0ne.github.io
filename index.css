@@ -4,7 +4,7 @@ html, body
     padding: 0;
     background-color:rgb(228, 228, 228);
     
-    font-family:'Quicksand', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Work Sans", 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a {
@@ -32,7 +32,7 @@ navbutton {
     height:300px;
 
     font-size:20px;
-    font-family:"Quicksand";
+    font-family:"Work Sans", "Quicksand";
 
     border-bottom: 0px solid white;
 
@@ -109,18 +109,18 @@ BANNER-EXTEND
 
 #banner-extend h1 {
     color:white;
-    font-family:"Quicksand";
-    font-size:80px;
+    font-family:"Quicksand", "Quicksand";
+    font-size:5em;
     text-shadow:3px 3px black;
     
     position:relative;
     text-align:center;
-    top:230px;
+    top:210px;
 }
 
 #banner-extend p {
     color:white;
-    font-family:"Quicksand";
+    font-family:"Quicksand", "Quicksand";
     font-size:20px;
     text-shadow:2px 2px black;
     
@@ -135,13 +135,13 @@ CONTENT HOLDER MAIN
 
 #decorative-div {
     position:relative;
-    background-color:rgb(5, 74, 223);
+    background-color:rgb(199, 199, 199);
 
     top:30px;
 
-    width:20%;
-    left:40%;
-    height:20px;
+    width:30%;
+    left:35%;
+    height:1px;
 }
 
 #content-holder-main {
@@ -151,25 +151,28 @@ CONTENT HOLDER MAIN
     width:100%;
     
 
-    background-color:white;
+    background: linear-gradient(90deg, rgba(15,72,125,1) 0%, rgba(27,74,195,1) 100%);
     box-shadow: 0px 0px 10px rgba(0,0,0,.8);
 
     text-align:center;
-    font-family:"Work Sans";
+    font-family:"Work Sans", "Quicksand";
+    color:white;
 }
 
 #content-holder-main h1 {
-    margin-top:80px;
+    margin-top:50px;
     font-size:75px;
 }
 
 #content-holder-main h2 {
     font-size:60px;
+
 }
 
 #content-holder-main p {
     margin-top:-40px;
     font-size:30px;
+    color:rgb(211, 211, 211);
 }
 
 .text-container {

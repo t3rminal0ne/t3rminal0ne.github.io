@@ -4,7 +4,7 @@ html, body
     padding: 0;
     background-color:rgb(228, 228, 228);
     
-    font-family:'Quicksand', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Work Sans", 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a {
@@ -32,7 +32,7 @@ navbutton {
     height:300px;
 
     font-size:20px;
-    font-family:"Quicksand";
+    font-family:"Work Sans", "Quicksand";
 
     border-bottom: 0px solid white;
 
@@ -109,18 +109,18 @@ BANNER-EXTEND
 
 #banner-extend h1 {
     color:white;
-    font-family:"Quicksand";
-    font-size:80px;
+    font-family:"Quicksand", "Quicksand";
+    font-size:5em;
     text-shadow:3px 3px black;
     
     position:relative;
     text-align:center;
-    top:230px;
+    top:210px;
 }
 
 #banner-extend p {
     color:white;
-    font-family:"Quicksand";
+    font-family:"Quicksand", "Quicksand";
     font-size:20px;
     text-shadow:2px 2px black;
     
@@ -133,17 +133,142 @@ BANNER-EXTEND
 CONTENT HOLDER MAIN
 */
 
+#decorative-div {
+    position:relative;
+    background-color:rgb(199, 199, 199);
+
+    top:30px;
+
+    width:30%;
+    left:35%;
+    height:1px;
+}
+
 #content-holder-main {
-    top:-20px;
-    z-index: 10;
+    position:absolute;
 
-    height:600px;
+    top:450px;
+    width:100%;
+    
 
-    background-image:url('../photos/backgroundimage3.jpg');
-    background-repeat:center;
-    background-repeat:fixed;
+    background: linear-gradient(90deg, rgba(15,72,125,1) 0%, rgba(27,74,195,1) 100%);
+    box-shadow: 0px 0px 10px rgba(0,0,0,.8);
 
     text-align:center;
+    font-family:"Work Sans", "Quicksand";
+    color:white;
+}
+
+#content-holder-main h1 {
+    margin-top:50px;
+    font-size:75px;
+}
+
+#content-holder-main p {
+    margin-top:-40px;
+    font-size:30px;
+    color:rgb(211, 211, 211);
+}
+
+.text-container {
+    position:relative;
+    width:90%;
+    left:5%;
+}
+
+/*
+CONTENT HOLDER NAVIGATION
+*/
+
+/*
+CONTENT HOLDER NAV BUTTONS
+*/
+
+#content-holder-nav-buttons {
+    position:relative;
+    text-align:center;
+} 
+
+.info-navbutton {
+    display:inline-block;
+    vertical-align:middle;
+
+    position:relative;
+    margin-left:15px;
+    margin-right:15px;
+    margin-bottom:40px;
+    margin-top:-20px;
+
+    height:200px;
+
+    width:290px;
+
+    background-color:white;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+
+    cursor:pointer;
+}
+.info-navbutton h3 {
+    position:relative;
+
+    font-size:50px;
+    top:20px;
+    color:white;
+}
+
+.info-navbutton-image {
+    position:relative;
+
+    height:100%;
+    width:100%;
+    background-color:white;
+}
+
+#info-navbutton-image-see-events {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./photos/info-navbutton-image-see-events.jpg');
+    background-size: 300px 200px;
+    
+}
+
+#info-navbutton-image-see-media {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./photos/info-navbutton-image-see-media.jpg');
+    background-size: 300px 260px;
+}
+
+#info-navbutton-image-learn-more {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./photos/info-navbutton-image-learn-more.jpg');
+    background-size: 300px 200px;
+}
+
+#info-navbutton-image-learn-more-2 {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./photos/info-navbutton-image-learn-more-2.jpg');
+    background-size: 300px 260px;
+    background-position:left bottom;
+}
+
+redirectbutton {
+    position:absolute;
+
+    width:50%;
+    height:40px;
+    
+    bottom:20px;
+    left:25%;
+
+    cursor:pointer;
+
+    border: 2px solid blue;
+    color:white;
+    border-radius:7px;
+    background-color:rgba(0,0,0,.3);
+
+    transition: background-color .3s, color .3s;
+}
+
+redirectbutton:hover {
+    background-color:blue;
+    color:white;
 }
 
 .contact-block {
@@ -153,32 +278,41 @@ CONTENT HOLDER MAIN
     margin:20px;
 
     width:300px;
-    height:350px;
+    height:320px;
     background-color:white;
     box-shadow: 0px 0px 5px rgba(0,0,0,.8);
 
     overflow:hidden;
+    font-family:"Quicksand"
 }
 
 .contact-block h2 {
     position:absolute;
     top:190px;
     width:100%;
+
+    color:black;
+    font-size:25px;
 }
-.contact-block p {
+.contact-block h6 {
     position:absolute;
-    top:220px;
+    top:200px;
     width:100%;
+
+    font-size:17px;
+    color:rgb(68, 68, 68);
 }
 
 .contact-block .email-h4 {
     position:absolute;
-    top:280px;
+    top:250px;
     width:90%;
     left:5%;
 
     padding-top:10px;
-    border-top: 1px solid rgb(139, 139, 139)
+    border-top: 1px solid rgb(139, 139, 139);
+
+    color:black;
 }
 
 .contact-block .phone-h4 {
