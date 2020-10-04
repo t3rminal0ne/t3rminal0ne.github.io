@@ -133,75 +133,54 @@ BANNER-EXTEND
 CONTENT HOLDER MAIN
 */
 
-#backdrop {
+#decorative-div {
     position:relative;
-    height:600px;
+    background-color:rgb(5, 74, 223);
 
-    background-image:url('./photos/backgroundimage3.jpg');
-    background-repeat:center;
-    background-repeat:fixed;
+    top:30px;
+
+    width:20%;
+    left:40%;
+    height:20px;
 }
 
 #content-holder-main {
     position:absolute;
 
-    top:-30px;
-    width:95%;
-    left:2.5%;
-    height:100%;
+    top:450px;
+    width:100%;
+    
 
     background-color:white;
     box-shadow: 0px 0px 10px rgba(0,0,0,.8);
 
     text-align:center;
-
-    overflow:scroll;
+    font-family:"Work Sans";
 }
 
-.content-holder-main-block {
-    display:inline-block;
-    height:270px;
-    width:49.5%;;
-    min-width:350px;
-
-    margin-top:10px;
-    margin-bottom:10px;
-
-    text-align:center;
-    vertical-align:top;
+#content-holder-main h1 {
+    margin-top:80px;
+    font-size:75px;
 }
 
-.content-holder-main-block h1 {
-}
-.content-holder-main-block p {
-
+#content-holder-main h2 {
+    font-size:60px;
 }
 
+#content-holder-main p {
+    margin-top:-40px;
+    font-size:30px;
+}
+
+.text-container {
+    position:relative;
+    width:90%;
+    left:5%;
+}
 
 /*
 CONTENT HOLDER NAVIGATION
 */
-
-#content-holder-nav {
-    position:relative;
-    z-index: 10;
-    top:-30px;
-
-    background-color:rgb(255,255,255);
-}
-
-#content-holder-nav h1 {
-    text-align:center;
-    position:relative;
-
-    width:30%;
-    left:35%;
-
-    top:30px;
-    font-size:50px;
-
-    border-bottom:3px solid blue;
-}
 
 /*
 CONTENT HOLDER NAV BUTTONS
@@ -209,20 +188,18 @@ CONTENT HOLDER NAV BUTTONS
 
 #content-holder-nav-buttons {
     position:relative;
-    bottom:0px;
-
     text-align:center;
 } 
 
 .info-navbutton {
     display:inline-block;
+    vertical-align:middle;
 
     position:relative;
     margin-left:15px;
     margin-right:15px;
-
-    margin-top:30px;
-    margin-bottom:30px;
+    margin-bottom:40px;
+    margin-top:-20px;
 
     height:200px;
 
@@ -230,6 +207,16 @@ CONTENT HOLDER NAV BUTTONS
 
     background-color:white;
     box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+
+    cursor:pointer;
+}
+.info-navbutton h3 {
+    position:relative;
+
+    font-size:50px;
+    top:20px;
+    color:white;
 }
 
 .info-navbutton-image {
@@ -238,15 +225,6 @@ CONTENT HOLDER NAV BUTTONS
     height:100%;
     width:100%;
     background-color:white;
-}
-
-.info-navbutton-image p {
-    position:absolute;
-    font-family:Quicksand;
-    font-size:50px;
-    color:white;
-
-    text-align:center;
 }
 
 #info-navbutton-image-see-events {
@@ -293,10 +271,4 @@ redirectbutton {
 redirectbutton:hover {
     background-color:blue;
     color:white;
-}
-
-redirectbutton p {
-    position:relative;
-    top:-12px;
-    font-size:20px;
 }
