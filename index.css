@@ -4,7 +4,7 @@ html, body
     padding: 0;
     background-color:rgb(228, 228, 228);
     
-    font-family: "Work Sans", 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Antic Slab", 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a {
@@ -155,13 +155,14 @@ CONTENT HOLDER MAIN
     box-shadow: 0px 0px 10px rgba(0,0,0,.8);
 
     text-align:center;
-    font-family:"Work Sans", "Quicksand";
+    font-family: "Antic Slab", "Work Sans", "Quicksand";
     color:white;
 }
 
 #content-holder-main h1 {
     margin-top:50px;
     font-size:75px;
+    font-weight:100;
 }
 
 #content-holder-main h2 {
@@ -173,6 +174,7 @@ CONTENT HOLDER MAIN
     margin-top:-40px;
     font-size:30px;
     color:rgb(211, 211, 211);
+    font-family: "Work sans";
 }
 
 .text-container {
@@ -218,6 +220,7 @@ CONTENT HOLDER NAV BUTTONS
     position:relative;
 
     font-size:50px;
+    font-family: "Work sans";
     top:20px;
     color:white;
 }
