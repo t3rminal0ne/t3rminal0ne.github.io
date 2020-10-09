@@ -4,7 +4,7 @@ html, body
     padding: 0;
     background-color:rgb(228, 228, 228);
     
-    font-family:'Quicksand', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Work Sans", 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a {
@@ -32,7 +32,7 @@ navbutton {
     height:300px;
 
     font-size:20px;
-    font-family:"Quicksand";
+    font-family:"Work Sans", "Quicksand";
 
     border-bottom: 0px solid white;
 
@@ -109,18 +109,18 @@ BANNER-EXTEND
 
 #banner-extend h1 {
     color:white;
-    font-family:"Quicksand";
-    font-size:80px;
+    font-family:"Quicksand", "Quicksand";
+    font-size:5em;
     text-shadow:3px 3px black;
     
     position:relative;
     text-align:center;
-    top:230px;
+    top:210px;
 }
 
 #banner-extend p {
     color:white;
-    font-family:"Quicksand";
+    font-family:"Quicksand", "Quicksand";
     font-size:20px;
     text-shadow:2px 2px black;
     
@@ -133,119 +133,65 @@ BANNER-EXTEND
 CONTENT HOLDER MAIN
 */
 
+#decorative-div {
+    position:relative;
+    background-color:rgb(199, 199, 199);
+
+    top:30px;
+
+    width:30%;
+    left:35%;
+    height:1px;
+}
+
 #content-holder-main {
-    top:-20px;
-    z-index: 10;
-
-    height:600px;
-
-    background-image:url('../photos/backgroundimage3.jpg');
-    background-repeat:center;
-    background-repeat:fixed;
-}
-
-#content-holder-h1-div {
-    position:relative;
-    width:90%;
-    left:05%;
-    top:0px;
-
-    font-weight:100;
-    color:black;
-    text-align:center;
-
-    border-bottom:3px solid white;
-}
-
-/*
-NAV DIV STUFF
-*/
-
-#nav-div {
-    position:relative;
-
-    top:-30px;
-    
-    width:90%;
-    left:5%;
-
-    background-color:rgba(255, 255, 255, 1);
-    box-shadow: 0px 0px 5px rgba(0,0,0,.8);
-
-    text-align:center;
-    display:inline-block;
-}
-
-.nav-div-button {
-    position:relative;
-    margin-top:10px;
-    margin-bottom:10px;
-    margin-left:20px;
-    margin-right:20px;
-
-    width:350px;
-    height:200px;
-    
-    display:inline-block;
-
-    text-align:center;
-    
-    background-color:red;
-
-    cursor:pointer;
-}
-
-.nav-div-button h1 {
     position:absolute;
-    width:90%;
-    left:5%;
-    top:20%;
 
-    color:white;
-    text-shadow:2px 2px black;
-}
-
-#nav-div-button-rpc {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../photos/rpcpa/IMG_4555.JPG');
-    background-position: center center;
-
-    background-size:350px 200px;
-}
-
-#nav-div-button-dp {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../photos/dp/IMG_0651.JPG');
-    background-position: center center;
-
-    background-size:350px 220px;
-}
-
-#nav-div-button-rpcpa {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../photos/rpcpa/IMG_4562.JPG');
-    background-position: center center;
-
-    background-size:350px 250px;
-}
-
-/*
-CONTENT HOLDER PHOTOS RPC
-*/
-
-.content-holder-photos {
-    position:relative;
-
-    margin-bottom:20px;
+    top:450px;
+    width:100%;
     
-    width:90%;
-    left:5%;
-    
-    display:inline-block;
+
+    background: linear-gradient(90deg, rgba(15,72,125,1) 0%, rgba(27,74,195,1) 100%);
+    box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+
     text-align:center;
-
-    background-color:rgba(255, 255, 255, 1);
-    box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+    font-family:"Antic Slab", "Work Sans", "Quicksand";
+    color:white;
 }
 
-.content-holder-photos img {
-    max-width:500px;
-    max-height:300px;
+#content-holder-main h1 {
+    margin-top:50px;
+    font-size:75px;
+    font-weight:100;
+    font-family:"Antic Slab"
+}
+
+#content-holder-main h2 {
+    font-size:60px;
+    font-weight:100;
+}
+
+#content-holder-main p {
+    margin-top:-40px;
+    font-size:30px;
+    color:rgb(211, 211, 211);
+    font-family: "Work sans";
+}
+
+.text-container {
+    position:relative;
+    width:90%;
+    left:5%;
+}
+
+redirectbutton:hover {
+    background-color:blue;
+    color:white;
+}
+
+img {
+    display:inline-block;
+    max-width:400px;
+    margin:5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.8);
 }
