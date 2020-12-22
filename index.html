@@ -8,75 +8,78 @@
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="/photos/rpclogo.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     </head>
+
     <body>
+        <div id='header'>
+            <img src='./photos/rpclogo.png' id='logo'>
+        </div>
 
-        <banner id="banner">
-            <img src="./photos/rpclogo.png" id='logo'>
+        <div id='banner-button-area'>
 
-            <navbutton id='contact-us'>
-                <a href='./contacts/contacts.html'>Contact Us</a>
-            </navbutton>
-            <navbutton id='about-us'>
-                <a href=''>About Us</a>
-            </navbutton>
-            <navbutton id='photos-videos'>
-                <a href="./media/media.html">Photos and Videos</a>
-            </navbutton>
-            <navbutton id='upcoming-events'>
-                <a href='./events/events.html'>Upcoming Events</a>
-            </navbutton>
-        </banner>
-
-        <section id='banner-extend'>
-            <h1>Richmond Pilipino Class</h1>
-        </section>
-
-        <div id='content-holder-main'>
-            <div id='decorative-div'></div>
-            <div class='text-container'>
-                <h1>Welcome to Richmond Pilipino Class!</h1>
-                <p>We are a Richmond-based Filipino organization aimed at teaching students about the culture and language of the Philippines.
-                       Students of Richmond Pilipino Class learn about the Philippines in a supportive, welcoming environment.
-                </p>
-
+            <div class='banner-button' id='media-banner-button'>
+                <h3>Media</h3>
+            </div>
+            <div class='banner-button' id='events-banner-button'>
+                <h3>Events</h3>
+            </div>
+            <div class='banner-button' id='contacts-banner-button'>
+                <h3>Contact Us</h3>
             </div>
 
-            <img src='./photos/classpic1.JPG' style='width:50%;height:auto;box-shadow: 0px 0px 10px rgba(0,0,0,.8);min-width:500px;'>
-            
-   
-            <div class='text-container'>
-                <div id='decorative-div'></div>
-                <h2>Announcements</h2>
-                <p>- RPC will have a Meet and Greet for the Holidays, see the "Upcoming Events" page for more information.</p>
+        </div>
+
+        <div id='header-extend-photo'></div>
+        </div>
+        <div id='header-extend-true'>
+            <div class='header-extend-content-div' id='header-extend-content-div-left'>
+                <h1 id='opening-message'>Richmond Pilipino Class</h1>
             </div>
-
-            <img src='./photos/IMG_4555.JPG' style='width:50%;height:auto;box-shadow: 0px 0px 10px rgba(0,0,0,.8); min-width:500px;'>
-
-            <div id='content-holder-nav'>
-               
-                <div id="content-holder-nav-h1">
-                    <div id='decorative-div'></div>
-                    <h2>Discover RPC</h2>
-                </div>
-                <div id='content-holder-nav-buttons'>
-                    <div class='info-navbutton' id='info-navbutton-contact' style='background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./photos/info-navbutton-image-learn-more.jpg);background-size:cover;'>
-                        <h3>Contact Us</h3>
-                    </div>
-                    <div class='info-navbutton' id='info-navbutton-about' style='background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./photos/info-navbutton-image-learn-more-2.jpg);background-size:cover;'>
-                        <h3>About Us</h3>
-                    </div>
-                    <div class='info-navbutton' id='info-navbutton-media' style='background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./photos/info-navbutton-image-see-media.JPG);background-size:cover;'>
-                        <h3>Media</h3>
-                    </div>
-                    <div class='info-navbutton' id='info-navbutton-events' style='background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./photos/info-navbutton-image-see-events.jpg);background-size:cover;'>
-                        <h3>Events</h3>
-                    </div>
-                </div>
+            <div class='header-extend-content-div' id='header-extend-content-div-right'>
+                <h1 id='opening-message-description'>We are a Richmond-based Filipino organization aimed at teaching students about the culture and language of the Philippines. Students of Richmond Pilipino Class learn about the Philippines in a supportive, welcoming environment.</h1>
             </div>
         </div>
 
+        <div id='content-holder'>
+            <div class='nav-box'>
+                <img src="https://img.icons8.com/nolan/64/photo-editor.png" class='nav-box-icon'/>
 
-        <script src='./index.js'></script>
+                <div class='nav-box-text'>
+                    <p>See the Richmond Pilipino Class in action</p>
+                </div>
+                <div class='nav-box-button' id='media-nav-box-button'>
+                    <h3>See Media</h3>
+                </div>
+            </div>
+            <div class='nav-box'>
+                <img src="https://img.icons8.com/nolan/64/tear-off-calendar.png" class='nav-box-icon'/>
+
+                <div class='nav-box-text'>
+                    <p>Join the Richmond Pilipino Class at one of our upcoming events</p>
+                </div>
+                <div class='nav-box-button' id='events-nav-box-button'>
+                    <h3>See Events</h3>
+                </div>
+            </div>
+            <div class='nav-box'>
+                <img src="https://img.icons8.com/nolan/64/new-contact.png" class='nav-box-icon'/>
+
+                <div class='nav-box-text'>
+                    <p>Get in touch with our great voulenteers and administrators</p>
+                </div>
+
+                <div class='nav-box-button' id='contacts-nav-box-button'>
+                    <h3>Contact Us</h3>
+                </div>
+            </div>   
+        </div>
+
+        <div id='other-content-div'>
+            <p style='position:absolute; color:white; left:10px; font-size:10px; top:120px;'>Icons obtained from icons8.com</p>
+        </div>
     </body>
+
+    <script src='index.js'></script>
 </html>
